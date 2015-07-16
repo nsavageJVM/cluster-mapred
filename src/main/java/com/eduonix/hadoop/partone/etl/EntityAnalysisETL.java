@@ -10,6 +10,7 @@ import org.apache.crunch.PObject;
 import org.apache.crunch.Pipeline;
 import org.apache.crunch.impl.mem.MemPipeline;
 import org.apache.crunch.io.From;
+import org.apache.crunch.io.To;
 import scala.Option;
 
 import java.nio.file.Path;
@@ -35,7 +36,7 @@ public class EntityAnalysisETL {
     private static Path output;
     private static Pipeline pipeline;
 
-    public static List<EntityStruct> loadData(Path dataIn) {
+    public static List<EntityStruct> extractData(Path dataIn) {
 
         // paths
         input = dataIn;
@@ -179,4 +180,14 @@ public class EntityAnalysisETL {
         return d;
     }
 
+
+    public static void loadData(List<String> duplicates, Path outputFile) {
+
+        PCollection<String> lines = MemPipeline.collectionOf(duplicates);
+
+        pipeline.write(lines, To.textFile(outputFile.toString()));
+
+
+
+    }
 }

@@ -1,0 +1,97 @@
+Duplicate {  entityId='AXA Advisors, LLC', fileID='0013000000hwZxMAAU', value=' LLC 1290 Avenue of the Americas Fl CONC1 New York NY 10104-1472'  } 
+Duplicate {  entityId='AXA Advisors, LLC', fileID='0013000000Fgan5AAB', value=' LLC 1290 Avenue of the Americas Fl CONC1 New York NY 10104-1472 US (212) 314-4600'  } 
+Duplicate {  entityId='AXA Advisors, LLC', fileID='0013000000QblqyAAB', value=' LLC 1290 Avenue of the Americas Fl CONC1 New York NY 10104-1472 US (212) 314-4600'  } 
+Duplicate {  entityId='AXA Advisors, LLC', fileID='0013000000Fgan5AAB', value=' LLC 1290 Avenue of the Americas Fl CONC1 New York NY 10104-1472 US (212) 314-4600'  } 
+Duplicate {  entityId='AXA Advisors, LLC', fileID='0013000000QblqyAAB', value=' LLC 1290 Avenue of the Americas Fl CONC1 New York NY 10104-1472 US (212) 314-4600'  } 
+Duplicate {  entityId='AXA Advisors, LLC', fileID='0013000000hwZxMAAU', value=' LLC 1290 Avenue of the Americas Fl CONC1 New York NY 10104-1472'  } 
+Duplicate {  entityId='Absolute Investment Advisers LLC', fileID='0013000001ARxSWAA1', value='350 Lincoln St  Ste 216 Hingham MA 02043-1585 US 7817401904'  } 
+Duplicate {  entityId='Absolute Investment Advisers LLC', fileID='0013000000RoipHAAR', value='350 Lincoln St Ste 216 Hingham MA 02043-1585 US (781) 740-1904'  } 
+Duplicate {  entityId='Amalgamated Bank', fileID='0013000000fyFn5AAE', value='275 7th Ave Frnt 2 New York NY 10001-6708 US'  } 
+Duplicate {  entityId='Amalgamated Bank', fileID='00130000009MiWhAAK', value='275 7th Ave Frnt 2 New York NY 10001-6708 US (212) 255-6200 1T5'  } 
+Duplicate {  entityId='Artisan Partners', fileID='0013000000vMHkjAAG', value='Milwaukee WI'  } 
+Duplicate {  entityId='Artisan Partners', fileID='0013000000Eq32oAAB', value='875 E Wisconsin Ave Ste 800 Milwaukee WI 53202-5408 US (414) 390-6100'  } 
+Duplicate {  entityId='Artisan Partners', fileID='001300000063ZshAAE', value='1000 N Water St Ste 1770 Milwaukee WI 53202-6648 US (414)390-8313'  } 
+Duplicate {  entityId='Artisan Partners', fileID='0013000000vMHkjAAG', value='Milwaukee WI'  } 
+Duplicate {  entityId='BNY Mellon', fileID='0013000000R8UOFAA3', value='Moscow Representative Office Posledny Pereulok  17 3rd Floor  No. 4 Moscow 103045 Russia'  } 
+Duplicate {  entityId='Bank of America', fileID='0013000000GmAekAAF', value='US 68X'  } 
+Duplicate {  entityId='Bank of America', fileID='0013000000GmAekAAF', value='US 68X'  } 
+Duplicate {  entityId='Bank of America', fileID='001300000075mmAAAQ', value='1201 Main St 10th Fl Dallas TX 75202-3929 US 68I'  } 
+Duplicate {  entityId='Bank of America', fileID='001300000063ZxMAAU', value='411 N Akard St 5th Fl Dallas TX 75201-3307 US (214)721-6780 A17'  } 
+Duplicate {  entityId='Beck, Mack & Oliver LLC', fileID='001300000063aASAAY', value=' Mack & Oliver LLC 360 Madison Ave 20th Fl New York NY 10017-7111 US (212)661-2640 M26'  } 
+Duplicate {  entityId='Beck, Mack & Oliver LLC', fileID='0013000001ARzT6AAL', value=' Mack & Oliver LLC 360 Madison Ave 20th Fl New York NY 10017-7111 US (212) 661-2640'  } 
+Duplicate {  entityId='Biondo Investment Advisors', fileID='0013000001ARzVdAAL', value='540 Routes 6 and # 209 Milford PA 18337-0909 US (570) 296-5525'  } 
+Duplicate {  entityId='Biondo Investment Advisors', fileID='001300000063aRQAAY', value='540 Routes 6 and # 209 Milford PA 18337-0909 US (570)296-5525 V83'  } 
+Duplicate {  entityId='Cambiar Investors LLC', fileID='001300000063ZXtAAM', value='2401 E 2nd Ave Ste 400 Denver CO 80206-4716 US (303)302-9000 QT2'  } 
+Duplicate {  entityId='Cambiar Investors LLC', fileID='0013000000vMFuvAAG', value='2401 E 2nd Ave Ste 400 Denver CO 80206-4716 US (303) 302-9000'  } 
+Duplicate {  entityId='Camden Partners Holdings, LLC', fileID='0013000000PyfARAAZ', value=' LLC 500 E Pratt St Baltimore MD 21202-3133 US (410) 878-6800'  } 
+Duplicate {  entityId='Camden Partners Holdings, LLC', fileID='0013000000PyfB5AAJ', value=' LLC 500 E Pratt St Baltimore MD 21202-3133 US (410) 878-6800'  } 
+Duplicate {  entityId='Champlain Investment Partners', fileID='0013000001ARzZ8AAL', value='346 Shelburne Rd 6th Fl Burlington VT 05401-4935 US (802) 846-6200'  } 
+Duplicate {  entityId='Champlain Investment Partners', fileID='0013000000Am42lAAB', value='346 Shelburne Rd 6th Fl Burlington VT 05401-4935 US (802) 846-6200 FK1'  } 
+Duplicate {  entityId='Charles Schwab', fileID='0013000000Eq2cYAAR', value='101 Montgomery St The Schwab Bldg San Francisco CA 94101 USA (415) 667-7000'  } 
+Duplicate {  entityId='Davenport & Company LLC', fileID='001300000063ZIPAA2', value='901 E Cary St 11th Fl Richmond VA 23219-4037 US (804) 780-2000 715  71X'  } 
+Duplicate {  entityId='Davenport & Company LLC', fileID='0013000000Eq2nIAAR', value='901 E Cary St Richmond VA 23219-3745 US (804) 780-2000'  } 
+Duplicate {  entityId='Delaware Investments', fileID='0013000000Eq2faAAB', value='2005 Market St Fl 40 Philadelphia PA 19103-7094 US (215) 255 - 2300'  } 
+Duplicate {  entityId='Delaware Investments', fileID='0013000000HQ09xAAD', value='2005 Market St Fl 40 Philadelphia PA 19103-7094 US'  } 
+Duplicate {  entityId='Fifth Third Asset Management, Inc.', fileID='001300000063aKdAAI', value=' Inc. 38 Fountain Square Plaza Md 1090d8 Cincinnati OH 45263-0001 US (513)534-3258'  } 
+Duplicate {  entityId='Fifth Third Asset Management, Inc.', fileID='0013000000fyFnsAAE', value=' Inc. 38 Fountain Square Plz Md 1090d2 Cincinnati OH 45263-0001 US'  } 
+Duplicate {  entityId='First Eagle', fileID='0013000000Eq2uWAAR', value='1345 Avenue of the Americas 43rd Fl New York NY 10105-0302 US (212) 698-3486'  } 
+Duplicate {  entityId='First Eagle', fileID='0013000000JkQlwAAF', value='1345 Avenue of the Americas 43rd Fl New York NY 10105-0302 US'  } 
+Duplicate {  entityId='First Southwest Company', fileID='0013000000Eq2o8AAB', value='325 N Saint Paul St Ste 800 Dallas TX 75201-3852 US (214) 953-4000'  } 
+Duplicate {  entityId='First Southwest Company', fileID='001300000063ZImAAM', value='325 N Saint Paul St Dallas TX 75201-3801 US 309'  } 
+Duplicate {  entityId='Fort Pitt Capital Group, Inc.', fileID='0013000001ARzhpAAD', value=' Inc. Foster Plaza 10  680 Anderson Drive Pittsburgh PA 15220 US (412) 921-1822'  } 
+Duplicate {  entityId='Fort Pitt Capital Group, Inc.', fileID='001300000063aGeAAI', value=' Inc. Foster Plaza 10  680 Anderson Drive Pittsburgh PA 15220 US (412)921-1822 S85'  } 
+Duplicate {  entityId='Geier Asset Management Inc', fileID='0013000000PyjHjAAJ', value='2205 Warwick Way Marriottsville MD 21104-1601 US (410) 997-8000'  } 
+Duplicate {  entityId='Geier Asset Management Inc', fileID='0013000001ARznGAAT', value='2205 Warwick Way Marriottsville MD 21104-1601 US (410) 997-8000'  } 
+Duplicate {  entityId='Goldman Sachs', fileID='0013000000YV60NAAT', value='New York United States'  } 
+Duplicate {  entityId='Goldman Sachs', fileID='0013000000Qbm0QAAR', value='120 Broadway Fl 20 New York NY 10271-0799 US (212) 902-1000'  } 
+Duplicate {  entityId='Goldman Sachs', fileID='0013000000YV60NAAT', value='New York United States'  } 
+Duplicate {  entityId='GunnAllen Financial, Inc.', fileID='001300000063ZIvAAM', value=' Inc. 5002 W Waters Ave Tampa FL 33634-1313 US'  } 
+Duplicate {  entityId='GunnAllen Financial, Inc.', fileID='0013000000G3DpZAAV', value=' Inc. 5002 W Waters Ave Tampa FL 33634-1313 US 813-282-0808'  } 
+Duplicate {  entityId='InspiraFS, Inc.', fileID='0013000000ZECtDAAX', value=' Inc. 8 Penn Ctr W Ste 101 Pittsburgh PA 15276-0137 7D9'  } 
+Duplicate {  entityId='InspiraFS, Inc.', fileID='0013000000nd6MNAAY', value=' Inc.'  } 
+Duplicate {  entityId='JDS Uniphase Corporation', fileID='0013000000Eq0SsAAJ', value='430 N McCarthy Blvd Milpitas CA 95035-5112 US (408) 546-4421'  } 
+Duplicate {  entityId='JDS Uniphase Corporation', fileID='0013000000Eq35UAAR', value='430 N McCarthy Blvd Milpitas CA 95035-5112 US (408) 546-4421'  } 
+Duplicate {  entityId='JP Morgan', fileID='001a000001ElANXAA3', value='1 Fricker Road Sandton Johannesburg 2196 South Africa'  } 
+Duplicate {  entityId='James I. Black & Co.', fileID='0013000000NN4weAAD', value='311 S Florida Ave Lakeland FL 33801-4623 US'  } 
+Duplicate {  entityId='James I. Black & Co.', fileID='001300000063ZJIAA2', value='311 S Florida Ave Lakeland FL 33801-4623 US 731'  } 
+Duplicate {  entityId='MIRVAC GROUP', fileID='0013000000PXkmmAAD', value='Level 26  60 Margaret Street Sydney NSW 2000 Australia'  } 
+Duplicate {  entityId='Manulife Financial', fileID='0013000000Eq0amAAB', value='200 Bloor Street East North Tower 7th Floor Toronto ON M4W 1E5 Canada'  } 
+Duplicate {  entityId='Morgan Stanley Investment Management', fileID='00130000016yvSmAAI', value='522 Fifth Ave New York NY'  } 
+Duplicate {  entityId='Morgan Stanley Investment Management', fileID='00130000006CMP8AAO', value='1221 Avenue of the Americas 33rd Fl New York NY 10020-1001 US (212)762-7206 5A1- old'  } 
+Duplicate {  entityId='Munder Capital Management', fileID='001300000063ZTFAA2', value='480 Pierce St Ste 300 Birmingham MI 48009-6058 US (248)647-9201 2Q1'  } 
+Duplicate {  entityId='Munder Capital Management', fileID='0013000000Eq33JAAR', value='480 Pierce St Birmingham MI 48009-6058 US (248) 647-9200'  } 
+Duplicate {  entityId='National Planning Holding, Inc.', fileID='0013000000TMXPBAA5', value=' Inc. 5555 W Grande Market Dr Appleton WI 54913-8403 US (920) 996-2611'  } 
+Duplicate {  entityId='National Planning Holding, Inc.', fileID='0013000000T7E8GAAV', value=' Inc. 5555 W Grande Market Dr Appleton WI 54913-8403 US (920) 996-2611'  } 
+Duplicate {  entityId='Nicholas Company, Inc.', fileID='0013000000E7dVZAAZ', value=' Inc. 700 N Water St Milwaukee WI 53202-4206 US (414) 272-4650'  } 
+Duplicate {  entityId='Nicholas Company, Inc.', fileID='0013000001AsTBRAA3', value=' Inc. Milwaukee WI'  } 
+Duplicate {  entityId='Penn Mutual Life', fileID='0013000000Qssi2AAB', value='60 Dresher Rd Horsham PA 19044 US'  } 
+Duplicate {  entityId='Penn Mutual Life', fileID='0013000000Qbm5vAAB', value='600 Dresher Rd Horsham PA 19044-2204 US (215) 956 - 8000'  } 
+Duplicate {  entityId='Perimeter Capital Management', fileID='0013000000PybBfAAJ', value='5 Concourse Pkwy NE Atlanta GA 30328-5350 US (770) 350-8700'  } 
+Duplicate {  entityId='Perimeter Capital Management', fileID='0013000000vMHgnAAG', value='Atlanta GA'  } 
+Duplicate {  entityId='Phocas Financial Corporation', fileID='0013000001AS0NgAAL', value='980 Atlantic Ave Ste 106 Alameda CA 94501-1098 US (510) 523-5800'  } 
+Duplicate {  entityId='Phocas Financial Corporation', fileID='0013000000HOlbQAAT', value='980 Atlantic Ave Ste 106 Alameda CA 94501-1098 US (510) 523-5800'  } 
+Duplicate {  entityId='Pioneer Investments', fileID='0013000000FganvAAB', value='60 State St Boston MA 02109-1800 US'  } 
+Duplicate {  entityId='Pioneer Investments', fileID='0013000000Eq2jJAAR', value='60 State St Boston MA 02109-1800 US (617) 422-4401'  } 
+Duplicate {  entityId='RS Investments', fileID='001300000063aJQAAY', value='388 Market St Ste 1700 San Francisco CA 94111-5317 US (415) 591-2700'  } 
+Duplicate {  entityId='RS Investments', fileID='001a000001N5IIrAAN', value='388 Market St Ste 1700 San Francisco CA 94111-5345 US'  } 
+Duplicate {  entityId='Rydex Investments', fileID='0013000000Iw69mAAB', value='9601 Blackwell Rd Ste 500 Rockville MD 20850-6478 US'  } 
+Duplicate {  entityId='Rydex Investments', fileID='0013000000JlXXyAAN', value='9601 Blackwell Rd Ste 500 Rockville MD 20850-6478 US (301) 296-5406'  } 
+Duplicate {  entityId='Rydex Investments', fileID='0013000000LfGRmAAN', value='9601 Blackwell Rd Ste 500 Rockville MD 20850-6478 US (301) 296-5100'  } 
+Duplicate {  entityId='Rydex Investments', fileID='0013000000Iw69mAAB', value='9601 Blackwell Rd Ste 500 Rockville MD 20850-6478 US'  } 
+Duplicate {  entityId='State Street', fileID='001300000063ZQEAA2', value='200 Clarendon Street  15th floor Hancock Towers Boston MA 2116 US 617-330-6574 61C  5T1'  } 
+Duplicate {  entityId='State Street', fileID='0013000000GFJwTAAX', value='MA US 60S'  } 
+Duplicate {  entityId='Symons Capital Management', fileID='0013000000G4w31AAB', value='5 Great Valley Pkwy Ste 217 Malvern PA 19355-1426 US (610) 648-3851 WY3'  } 
+Duplicate {  entityId='Symons Capital Management', fileID='0013000001AS0RGAA1', value='5 Great Valley Pkwy Ste 217 Malvern  PA 19355-1426 US (610) 648-3851'  } 
+Duplicate {  entityId='UBS Securities, LLC', fileID='001300000063ZKkAAM', value=' LLC 480 Washington Blvd 12th Fl Jersey City NJ 07310-2053 US 642  81P  507  386  169'  } 
+Duplicate {  entityId='UBS Securities, LLC', fileID='0013000000GGLbcAAH', value=' LLC NJ US 92W'  } 
+Duplicate {  entityId='Union Bank', fileID='001300000063ZRrAAM', value='530 B St Ste 222 San Diego CA 92101-4498 US 3S2'  } 
+Duplicate {  entityId='Walthausen & Co. LLC', fileID='0013000001AS0T3AAL', value='9 Executive Park Dr Clifton Park NY 12065-8647 US (518) 371-3450'  } 
+Duplicate {  entityId='Walthausen & Co. LLC', fileID='0013000000ZCYSMAA5', value='9 Executive Park Dr Clifton Park NY 12065-8647 US (518) 371-3450 XF7'  } 
+Duplicate {  entityId='Wellesley Investment Advisors, Inc.', fileID='0013000001AsTBfAAN', value=' Inc.'  } 
+Duplicate {  entityId='Wellesley Investment Advisors, Inc.', fileID='0013000000QsX0bAAF', value=' Inc. 20 William St Ste G5 Wellesley MA 02481-4104 US (781) 416-4000'  } 
+Duplicate {  entityId='Wells Fargo Advisors', fileID='001a000001Qq63pAAB', value='One North Jefferson St. Louis MO 63103'  } 
+Duplicate {  entityId='Wells Fargo Advisors', fileID='001300000063ZIkAAM', value='One North Jefferson St. Louis MO 63103 US 141  030'  } 
+Duplicate {  entityId='Wells Fargo Bank, N.A.', fileID='0013000000pAi1iAAC', value=' N.A.'  } 
+Duplicate {  entityId='Wells Fargo Bank, N.A.', fileID='001a000001GSc05AAD', value=' N.A. 550 South Tyron Stree 7th Floort Charlotte NC 28202 USA'  } 
+Duplicate {  entityId='Wright Investors' Service', fileID='001300000063ZdWAAU', value='440 Wheelers Farms Rd Milford CT 06461-9133 US (203)783-4410 6K2'  } 
+Duplicate {  entityId='Wright Investors' Service', fileID='001a000001Qq66FAAR', value='Milford CT (203) 783-4430'  } 

@@ -3,6 +3,7 @@ package com.eduonix.hadoop.partone;
 import com.eduonix.hadoop.partone.etl.DuplicateStruct;
 import com.eduonix.hadoop.partone.etl.EntityAnalysisETL;
 import com.eduonix.hadoop.partone.etl.EntityStruct;
+import com.google.common.collect.Lists;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -16,16 +17,19 @@ public class RunClusterFlow {
 
     private static final String projectRootPath = System.getProperty("user.dir");
     private static final String mapped_data = "output";
+    private static final String clustered_data = "clustered";
 
     public static void main(String[] args) {
 
         Path inputFile = Paths.get(projectRootPath, mapped_data);
+        Path outputFile = Paths.get(projectRootPath, clustered_data);
 
-        List<EntityStruct> entities = EntityAnalysisETL.loadData(inputFile);
+        List<EntityStruct> entities = EntityAnalysisETL.extractData(inputFile);
 
 
         List<EntityStruct.DistanceStruct> clusters =  EntityAnalysisETL.transformData(entities);
 
+        List<String> duplicates = Lists.newLinkedList();
 
         for (EntityStruct.DistanceStruct cluster : clusters) {
 
@@ -37,15 +41,15 @@ public class RunClusterFlow {
                     String[] addressLine = duplicate.value.split(" ");
 
                     if (addressLine.length > 1 ) {
-                        System.out.println(duplicate);
+                        duplicates.add(duplicate.toString());
                     }
-
-
                 }
 
             }
-
-
         }
+
+
+        EntityAnalysisETL.loadData(duplicates, outputFile);
+
     }
 }
