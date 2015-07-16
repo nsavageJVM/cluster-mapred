@@ -3,7 +3,7 @@ package com.eduonix.hadoop.partone;
 import java.io.* ;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.conf.Configuration ;
-import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.fs.*;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
@@ -11,43 +11,53 @@ import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
-import org.apache.hadoop.util.GenericOptionsParser;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
 /**
  * Created by ubu on 11.07.15.
  */
-public class EntityAnalysis extends Configured implements Tool {
+public class EntityAnalysisMRJob extends Configured implements Tool {
 
     private static final String projectRootPath = System.getProperty("user.dir");
+    private static final  boolean runOnCluster = false;
 
-    private static final String raw_data = "ComercialBanks.csv";
-    private static final String mapped_data = "output"+System.currentTimeMillis();;
+    private static final String END_CLUSTER_FLAG = "END_CLUSTER_FLAG";
+    private static final String START_CLUSTER_FLAG = "START_CLUSTER_FLAG";
+
+    private static final String raw_data = "ComercialBanks10k.csv";
+    private static final String mapped_data = "output";
+    private static final String mappedDataForAnalysis = "/mapped_data";
 
     private static Path outputFile;
     private static Path inputFile;
-
+    private static Path mappedDataPath;
+    private static Configuration conf;
 
     public static void main(String[] args) throws Exception
     {
         // this main function will call run method defined above.
-        int res = ToolRunner.run(new Configuration(), new EntityAnalysis(), args);
+        int res = ToolRunner.run(new Configuration(), new EntityAnalysisMRJob(), args);
+        System.out.println("res: "+res);
+        if(res==0  && runOnCluster) {
+            runMigrate();
+        }
+
         System.exit(res);
     }
 
 
 
     public int run(String[] strings) throws Exception {
-        Configuration conf = getConf();
+        conf = getConf();
 
         outputFile = new Path(projectRootPath, mapped_data);
         inputFile = new Path(projectRootPath, raw_data);
         Job job = Job.getInstance(conf);
 
-        job.setJarByClass(EntityAnalysis.class);
+        job.setJarByClass(EntityAnalysisMRJob.class);
         job.setMapperClass(EntityMapper.class);
-        job.setReducerClass(EntityReducer.class);
+        job.setReducerClass(EntityReducerClusterSeeds.class);
 
         // these values define the types for the MAGIC shuffle sort steps
         job.setOutputKeyClass(Text.class);
@@ -58,6 +68,23 @@ public class EntityAnalysis extends Configured implements Tool {
 
         return (job.waitForCompletion(true) ? 0 : 1);
     }
+
+    public static int runMigrate( ) throws Exception {
+
+        FileSystem fs = FileSystem.get(conf);
+        Path tmpPath = new Path( projectRootPath);
+        mappedDataPath = new Path( tmpPath.toString()+mappedDataForAnalysis);
+
+        System.out.println( String.format("  mappedDataPath %s", mappedDataPath ));
+
+        fs.copyToLocalFile(false, outputFile, mappedDataPath);
+        fs.copyToLocalFile(false, inputFile, mappedDataPath);
+
+        return 0;
+    }
+
+
+
 
     public static class EntityMapper  extends Mapper<Object, Text, Text, Text>
     {
@@ -106,5 +133,26 @@ public class EntityAnalysis extends Configured implements Tool {
         }
     }
 
+
+    public static class EntityReducerClusterSeeds  extends Reducer<Text,Text,Text,Text> {
+
+        public void reduce(Text key, Iterable<Text> values,  Context context) throws IOException, InterruptedException {
+
+            int total = 0;
+            StringBuilder logger = new StringBuilder();
+            logger.append(START_CLUSTER_FLAG).append("\n");
+            for (Text val : values) {
+                total++ ;
+                logger.append(key).append("\t").append(val).append("\n");
+            }
+            if( total > 1)  {
+
+                context.write(new Text(logger.toString()), new Text(END_CLUSTER_FLAG));
+
+            }
+
+
+        }
+    }
 
 }
