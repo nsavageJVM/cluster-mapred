@@ -16,12 +16,19 @@ import java.util.Set;
 public class RunClusterFlow {
 
     private static final String projectRootPath = System.getProperty("user.dir");
-    private static final String mapped_data = "output";
+    private static final String mapped_data = "mapped_data";
     private static final String clustered_data = "clustered";
 
     public static void main(String[] args) {
 
-        Path inputFile = Paths.get(projectRootPath, mapped_data);
+        Path inputFile = null;
+        if(EntityAnalysisMRJob.runOnCluster) {
+            inputFile = Paths.get(projectRootPath, mapped_data);
+        } else {
+            inputFile = Paths.get(projectRootPath, "output");
+        }
+
+
         Path outputFile = Paths.get(projectRootPath, clustered_data);
 
         List<EntityStruct> entities = EntityAnalysisETL.extractData(inputFile);
