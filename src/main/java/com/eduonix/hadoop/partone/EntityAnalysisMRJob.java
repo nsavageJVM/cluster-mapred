@@ -51,6 +51,29 @@ public class EntityAnalysisMRJob extends Configured implements Tool {
     public int run(String[] strings) throws Exception {
         conf = getConf();
 
+        File localOutputDirectory = new File(String.format("%s%s",projectRootPath ,"/output" ));
+
+        if(localOutputDirectory.exists()) {
+
+            System.out.println("Mapreduce output folder exists in local filesystem  deleting run local test again");
+            delete(localOutputDirectory);
+
+            return 1;
+
+        }
+
+        File localMappedDirectory = new File(String.format("%s%s",projectRootPath ,"/mapped_data" ));
+
+        if(localMappedDirectory.exists()) {
+
+            System.out.println("Mapped data output folder exists in local filesystem  deleting run local test again");
+            delete(localMappedDirectory);
+
+            return 1;
+
+        }
+
+
         outputFile = new Path(projectRootPath, mapped_data);
         inputFile = new Path(projectRootPath, raw_data);
         Job job = Job.getInstance(conf);
@@ -155,4 +178,47 @@ public class EntityAnalysisMRJob extends Configured implements Tool {
         }
     }
 
+
+
+    public static void delete(File file)
+            throws IOException{
+
+        if(file.isDirectory()){
+
+            //directory is empty, then delete it
+            if(file.list().length==0){
+
+                file.delete();
+                System.out.println("Directory is deleted : "
+                        + file.getAbsolutePath());
+
+            }else{
+
+                //list all the directory contents
+                String files[] = file.list();
+
+                for (String temp : files) {
+                    //construct the file structure
+                    File fileDelete = new File(file, temp);
+
+                    //recursive delete
+                    delete(fileDelete);
+                }
+
+                //check the directory again, if empty then delete it
+                if(file.list().length==0){
+                    file.delete();
+                    System.out.println("Directory is deleted : "
+                            + file.getAbsolutePath());
+                }
+            }
+
+        }else{
+            //if file, then delete it
+            file.delete();
+            System.out.println("File is deleted : " + file.getAbsolutePath());
+        }
+    }
 }
+
+
