@@ -13,7 +13,7 @@
     
 - To run code
  * 1 run com.eduonix.hadoop.partone.EntityAnalysisMRJob to produce the traning data, set    
-   `public static final  boolean runOnCluster = false' for local testing on Linux  
+   `public static final  boolean runOnCluster = false` for local testing on Linux  
     `public static final  boolean runOnCluster = true` for Hadoop  
  * 2 run  com.eduonix.hadoop.partone.etl.EntityAnalysisETL  
     
