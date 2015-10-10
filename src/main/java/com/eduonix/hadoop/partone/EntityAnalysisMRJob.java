@@ -20,7 +20,7 @@ import org.apache.hadoop.util.ToolRunner;
 public class EntityAnalysisMRJob extends Configured implements Tool {
 
     private static final String projectRootPath = System.getProperty("user.dir");
-    public static final  boolean runOnCluster = true;
+    public static final  boolean runOnCluster = false;
 
     private static final String END_CLUSTER_FLAG = "END_CLUSTER_FLAG";
     private static final String START_CLUSTER_FLAG = "START_CLUSTER_FLAG";
