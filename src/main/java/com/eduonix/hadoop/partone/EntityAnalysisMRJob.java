@@ -19,7 +19,7 @@ import org.apache.hadoop.util.ToolRunner;
  */
 public class EntityAnalysisMRJob extends Configured implements Tool {
 
-    private static final String projectRootPath = System.getProperty("user.dir");
+    private static   String projectRootPath = System.getProperty("user.dir");
     public static final  boolean runOnCluster = false;
 
     private static final String END_CLUSTER_FLAG = "END_CLUSTER_FLAG";
@@ -73,7 +73,8 @@ public class EntityAnalysisMRJob extends Configured implements Tool {
 
         }
 
-
+        // temp  update for  cloudxlab.com
+        projectRootPath = projectRootPath.replaceAll("home", "user");
         outputFile = new Path(projectRootPath, mapped_data);
         inputFile = new Path(projectRootPath, raw_data);
         Job job = Job.getInstance(conf);
