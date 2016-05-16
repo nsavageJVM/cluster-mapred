@@ -15,7 +15,7 @@ import java.util.Set;
  */
 public class RunClusterFlow {
 
-    private static final String projectRootPath = System.getProperty("user.dir");
+    private static String projectRootPath = System.getProperty("user.dir");
     private static final String mapped_data = "mapped_data";
     private static final String clustered_data = "clustered";
 
@@ -23,8 +23,10 @@ public class RunClusterFlow {
 
         Path inputFile = null;
         if(EntityAnalysisMRJob.runOnCluster) {
+            projectRootPath = projectRootPath.replaceAll("home", "user");
             inputFile = Paths.get(projectRootPath, mapped_data);
         } else {
+            projectRootPath = projectRootPath.replaceAll("home", "user");
             inputFile = Paths.get(projectRootPath, "output");
         }
 
